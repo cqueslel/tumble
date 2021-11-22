@@ -1,4 +1,5 @@
 import './Home.scss';
+import React from 'react';
 import { FormattedMessage } from "react-intl";
 import { useState, useEffect } from "react";
 
@@ -8,7 +9,7 @@ const Header: React.FC = () => {
 
     return (
         <div>
-            <h3 className="title">
+            <h3>
                 <FormattedMessage id="home.title" />
             </h3>
         </div>
