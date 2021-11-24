@@ -8,7 +8,15 @@ import { Card, ListGroup } from "react-bootstrap";
 const PageNotFound: React.FC = () => {
   const intl = useIntl();
 
-  // Make a notify service like in angular project for easier toast configs
+  // How to scss styling directly in component file
+  // ---> Best approach just use a scss file import, common one for all or ---> just use App's one
+
+  const spanStyles = {
+    fontSize: "25px",
+    fontFamily: "Inter"
+  };
+
+  // Make a notify service like in angular project for easier toast configs, style toast Miami style
 
   const notify = () => {
     toast("Wow so easy!");
@@ -26,6 +34,12 @@ const PageNotFound: React.FC = () => {
         className="PageNotFound-message mx-5"
       >
         {intl.formatMessage({ id: "pageNotFound.message", defaultMessage: "BRUH" })}
+      </span>
+      <span
+        style={spanStyles}
+        className="mx-5"
+      >
+        {intl.formatMessage({ id: "pageNotFound.message", defaultMessage: "OKE" })}
       </span>
       <FontAwesomeIcon icon={['fas', 'coffee']} />
       <FontAwesomeIcon icon="coffee" />

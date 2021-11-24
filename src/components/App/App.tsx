@@ -8,27 +8,29 @@ import Home from "../routes/Home/Home";
 import { RiotService } from "../../services/riot.service";
 
 import { IntlProvider } from "react-intl";
+import en_messages from "../../locales/en.json"
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
 
 const App: React.FC = () => {
-
   library.add(fab, fas, far);
 
   return (
-    <IntlProvider locale="en">
+    <IntlProvider locale="en" messages={en_messages}>
       <Router basename={process.env.REACT_APP_BASE_URL}>
-        <Header />
-        <div className="flex-grow-1">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route component={PageNotFound} />
-          </Switch>
+        <div className="App-body">
+          <Header />
+          <div className="flex-grow-1">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route component={PageNotFound} />
+            </Switch>
+          </div>
+          <ToastContainer />
         </div>
-        <ToastContainer />
       </Router>
     </IntlProvider>
   );

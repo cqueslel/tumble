@@ -3,7 +3,7 @@ import React from 'react';
 import { FormattedMessage } from "react-intl";
 import { useState, useEffect } from "react";
 
-const Header: React.FC = () => {
+const Home: React.FC = () => {
 
     const [loading, setLoading] = useState(true);
 
@@ -16,4 +16,4 @@ const Header: React.FC = () => {
     );
 }
 
-export default Header;
+export default Home;
