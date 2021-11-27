@@ -11,6 +11,7 @@ const PageNotFound: React.FC = () => {
   // How to scss styling directly in component file
   // ---> Best approach just use a scss file import, common one for all or ---> just use App's one
 
+  // Make dictionnary of classes
   const spanStyles = {
     fontSize: "25px",
     fontFamily: "Inter"

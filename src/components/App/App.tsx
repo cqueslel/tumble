@@ -1,9 +1,8 @@
 import "./App.scss";
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import PageNotFound from "../common/PageNotFound";
-import Header from "../common/Header";
 import Home from "../routes/Home/Home";
 import { RiotService } from "../../services/riot.service";
 
@@ -20,9 +19,8 @@ const App: React.FC = () => {
 
   return (
     <IntlProvider locale="en" messages={en_messages}>
-      <Router basename={process.env.REACT_APP_BASE_URL}>
+      <HashRouter basename={process.env.REACT_APP_BASE_URL}>
         <div className="App-body">
-          <Header />
           <div className="flex-grow-1">
             <Switch>
               <Route exact path="/" component={Home} />
@@ -31,7 +29,7 @@ const App: React.FC = () => {
           </div>
           <ToastContainer />
         </div>
-      </Router>
+      </HashRouter>
     </IntlProvider>
   );
 };
