@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tumble-ui/static/css/main.0022b472.chunk.css",
-    "main.js": "/tumble-ui/static/js/main.f9cd73ce.chunk.js",
-    "main.js.map": "/tumble-ui/static/js/main.f9cd73ce.chunk.js.map",
+    "main.js": "/tumble-ui/static/js/main.cba7f286.chunk.js",
+    "main.js.map": "/tumble-ui/static/js/main.cba7f286.chunk.js.map",
     "runtime-main.js": "/tumble-ui/static/js/runtime-main.20717e47.js",
     "runtime-main.js.map": "/tumble-ui/static/js/runtime-main.20717e47.js.map",
     "static/css/2.dc692443.chunk.css": "/tumble-ui/static/css/2.dc692443.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.dc692443.chunk.css",
     "static/js/2.70f705ee.chunk.js",
     "static/css/main.0022b472.chunk.css",
-    "static/js/main.f9cd73ce.chunk.js"
+    "static/js/main.cba7f286.chunk.js"
   ]
 }
