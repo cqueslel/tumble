@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tumble-ui/static/css/main.0022b472.chunk.css",
-    "main.js": "/tumble-ui/static/js/main.617733ba.chunk.js",
-    "main.js.map": "/tumble-ui/static/js/main.617733ba.chunk.js.map",
+    "main.css": "/tumble-ui/static/css/main.b3003411.chunk.css",
+    "main.js": "/tumble-ui/static/js/main.ee5182f8.chunk.js",
+    "main.js.map": "/tumble-ui/static/js/main.ee5182f8.chunk.js.map",
     "runtime-main.js": "/tumble-ui/static/js/runtime-main.20717e47.js",
     "runtime-main.js.map": "/tumble-ui/static/js/runtime-main.20717e47.js.map",
     "static/css/2.dc692443.chunk.css": "/tumble-ui/static/css/2.dc692443.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.0ece7920.chunk.js.map": "/tumble-ui/static/js/3.0ece7920.chunk.js.map",
     "index.html": "/tumble-ui/index.html",
     "static/css/2.dc692443.chunk.css.map": "/tumble-ui/static/css/2.dc692443.chunk.css.map",
-    "static/css/main.0022b472.chunk.css.map": "/tumble-ui/static/css/main.0022b472.chunk.css.map",
+    "static/css/main.b3003411.chunk.css.map": "/tumble-ui/static/css/main.b3003411.chunk.css.map",
     "static/js/2.48767986.chunk.js.LICENSE.txt": "/tumble-ui/static/js/2.48767986.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/tumble-ui/static/media/demacia-vice-lucian-lol-splash-art.a314a0db.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.20717e47.js",
     "static/css/2.dc692443.chunk.css",
     "static/js/2.48767986.chunk.js",
-    "static/css/main.0022b472.chunk.css",
-    "static/js/main.617733ba.chunk.js"
+    "static/css/main.b3003411.chunk.css",
+    "static/js/main.ee5182f8.chunk.js"
   ]
 }
