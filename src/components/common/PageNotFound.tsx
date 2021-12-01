@@ -4,6 +4,7 @@ import { useIntl } from "react-intl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { toast } from "react-toastify";
 import { Card, ListGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const PageNotFound: React.FC = () => {
   const intl = useIntl();
@@ -14,46 +15,54 @@ const PageNotFound: React.FC = () => {
   // Make dictionnary of classes
   const spanStyles = {
     fontSize: "25px",
-    fontFamily: "Inter"
+    fontFamily: "Inter",
   };
 
   // Make a notify service like in angular project for easier toast configs, style toast Miami style
 
   const notify = () => {
-    toast("Wow so easy!");
+    toast("Toastify works!");
   };
 
-  function notify2() {
-    toast("Wow so easy!");
-  }
+  // Use const not function for now
+
+  // function notify2() {
+  //   toast("Toastify works!");
+  // }
 
   return (
-    <div>
-      <FormattedMessage id="pageNotFound.message" />
-      <span
-        style={{ fontSize: "25px", fontFamily: "Inter" }}
-        className="PageNotFound-message mx-5"
-      >
-        {intl.formatMessage({ id: "pageNotFound.message", defaultMessage: "BRUH" })}
-      </span>
-      <span
-        style={spanStyles}
-        className="mx-5"
-      >
-        {intl.formatMessage({ id: "pageNotFound.message", defaultMessage: "OKE" })}
-      </span>
-      <FontAwesomeIcon icon={['fas', 'coffee']} />
-      <FontAwesomeIcon icon="coffee" />
-      <button onClick={notify}>Notify!</button>
+    <div className="PageNotFound-main">
 
-      <Card style={{ width: "18rem" }}>
-        <Card.Header>Featured</Card.Header>
-        <ListGroup variant="flush">
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-        </ListGroup>
-      </Card>
+      <FormattedMessage
+        id="pageNotFound.message"
+        defaultMessage="defaulted to this"
+      />
+
+      <span style={{ fontSize: "25px", fontFamily: "Inter" }} className="mx-5">
+        {intl.formatMessage({
+          id: "pageNotFound.message",
+          defaultMessage: "defaulted to this",
+        })}
+      </span>
+
+      <span style={spanStyles} className="mx-5">
+        {intl.formatMessage({
+          id: "pageNotFound.message",
+          defaultMessage: "defaulted to this",
+        })}
+      </span>
+
+      <div className="mx-5 my-5">
+        <Link to="/" className="btn btn-dark">
+          Go back <FormattedMessage id="header.home" />
+        </Link>
+      </div>
+
+      <FontAwesomeIcon icon={["fas", "coffee"]} />
+      <FontAwesomeIcon icon="coffee" />
+      
+      <button className="btn btn-primary" onClick={notify}>Notify!</button>
+
     </div>
   );
 };

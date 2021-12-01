@@ -7,7 +7,7 @@ import Home from "../routes/Home/Home";
 import { RiotService } from "../../services/riot.service";
 
 import { IntlProvider } from "react-intl";
-import en_messages from "../../locales/en.json"
+import en_messages from "../../locales/en.json";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -25,9 +25,18 @@ const App: React.FC = () => {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route component={PageNotFound} />
+              {/* <Redirect to="/" /> */}
             </Switch>
           </div>
-          <ToastContainer />
+          <ToastContainer
+            autoClose={3000}
+            position="bottom-right"
+            progressClassName="toastProgress"
+            bodyClassName="toastBody"
+            closeButton={true}
+            pauseOnFocusLoss={false}
+            icon={false}
+          />
         </div>
       </HashRouter>
     </IntlProvider>

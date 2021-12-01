@@ -4151,11 +4151,6 @@
     "path-type" "^4.0.0"
     "yaml" "^1.10.0"
 
-"cp@^0.2.0":
-  "integrity" "sha1-oIdBg6CeiF63J5JYKraM45MrE10="
-  "resolved" "https://registry.npmjs.org/cp/-/cp-0.2.0.tgz"
-  "version" "0.2.0"
-
 "create-ecdh@^4.0.0":
   "integrity" "sha512-mf+TCx8wWc9VpuxfP2ht0iSISLZnt0JgWlrOKZiNqyUZWnjIaCIVNQArMHnCZKfEYRg6IM7A+NeJoN8gf/Ws0A=="
   "resolved" "https://registry.npmjs.org/create-ecdh/-/create-ecdh-4.0.4.tgz"

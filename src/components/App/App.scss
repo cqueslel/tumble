@@ -10,6 +10,35 @@
   flex-direction: column;
 }
 
-.PageNotFound-message {
-  color: blue;
+/* Toastify */
+.Toastify__toast--info {
+  background: #cabcff !important;
+}
+.Toastify__toast--warning {
+  background: #fff570 !important;
+}
+.Toastify__toast--error {
+  background: #ff6c6c !important;
+}
+.Toastify__toast--success {
+  background: #ffac85 !important;
+}
+.toastBody {
+  font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+  color: #10171D; /* #10171D */
+  font-size: 0.875rem !important;
+}
+.toastProgress {
+  background: #333F48 !important;
+}
+
+/* PageNotFound */
+.PageNotFound-main {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
 }
