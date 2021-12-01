@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/tumble-ui/static/css/main.b3003411.chunk.css",
-    "main.js": "/tumble-ui/static/js/main.ee5182f8.chunk.js",
-    "main.js.map": "/tumble-ui/static/js/main.ee5182f8.chunk.js.map",
-    "runtime-main.js": "/tumble-ui/static/js/runtime-main.20717e47.js",
-    "runtime-main.js.map": "/tumble-ui/static/js/runtime-main.20717e47.js.map",
+    "main.css": "/tumble-ui/static/css/main.3df4a326.chunk.css",
+    "main.js": "/tumble-ui/static/js/main.6ddf00ec.chunk.js",
+    "main.js.map": "/tumble-ui/static/js/main.6ddf00ec.chunk.js.map",
+    "runtime-main.js": "/tumble-ui/static/js/runtime-main.7bc0c59d.js",
+    "runtime-main.js.map": "/tumble-ui/static/js/runtime-main.7bc0c59d.js.map",
     "static/css/2.dc692443.chunk.css": "/tumble-ui/static/css/2.dc692443.chunk.css",
-    "static/js/2.48767986.chunk.js": "/tumble-ui/static/js/2.48767986.chunk.js",
-    "static/js/2.48767986.chunk.js.map": "/tumble-ui/static/js/2.48767986.chunk.js.map",
-    "static/js/3.0ece7920.chunk.js": "/tumble-ui/static/js/3.0ece7920.chunk.js",
-    "static/js/3.0ece7920.chunk.js.map": "/tumble-ui/static/js/3.0ece7920.chunk.js.map",
+    "static/js/2.339e5a04.chunk.js": "/tumble-ui/static/js/2.339e5a04.chunk.js",
+    "static/js/2.339e5a04.chunk.js.map": "/tumble-ui/static/js/2.339e5a04.chunk.js.map",
+    "static/js/3.f0530510.chunk.js": "/tumble-ui/static/js/3.f0530510.chunk.js",
+    "static/js/3.f0530510.chunk.js.map": "/tumble-ui/static/js/3.f0530510.chunk.js.map",
     "index.html": "/tumble-ui/index.html",
     "static/css/2.dc692443.chunk.css.map": "/tumble-ui/static/css/2.dc692443.chunk.css.map",
-    "static/css/main.b3003411.chunk.css.map": "/tumble-ui/static/css/main.b3003411.chunk.css.map",
-    "static/js/2.48767986.chunk.js.LICENSE.txt": "/tumble-ui/static/js/2.48767986.chunk.js.LICENSE.txt",
+    "static/css/main.3df4a326.chunk.css.map": "/tumble-ui/static/css/main.3df4a326.chunk.css.map",
+    "static/js/2.339e5a04.chunk.js.LICENSE.txt": "/tumble-ui/static/js/2.339e5a04.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/tumble-ui/static/media/demacia-vice-lucian-lol-splash-art.a314a0db.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.20717e47.js",
+    "static/js/runtime-main.7bc0c59d.js",
     "static/css/2.dc692443.chunk.css",
-    "static/js/2.48767986.chunk.js",
-    "static/css/main.b3003411.chunk.css",
-    "static/js/main.ee5182f8.chunk.js"
+    "static/js/2.339e5a04.chunk.js",
+    "static/css/main.3df4a326.chunk.css",
+    "static/js/main.6ddf00ec.chunk.js"
   ]
 }
